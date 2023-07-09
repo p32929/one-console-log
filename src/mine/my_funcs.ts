@@ -35,18 +35,16 @@ export class MyFuncs {
 
         const selectedVarNames = Object.keys(uniqueVarMaker).filter((item) => item !== '')
 
-        if (selectedVarNames.length !== 0) {
-            const lastSelectedLineNumber = Math.max(...lineNumbers)
-            await editor.edit((editBuilder) => {
-                jsDebugMessage.fayMsg(
-                    editBuilder,
-                    document,
-                    selectedVarNames,
-                    lastSelectedLineNumber,
-                    tabSize,
-                );
-            });
-        }
+        const lastSelectedLineNumber = Math.max(...lineNumbers)
+        await editor.edit((editBuilder) => {
+            jsDebugMessage.fayMsg(
+                editBuilder,
+                document,
+                selectedVarNames,
+                lastSelectedLineNumber,
+                tabSize,
+            );
+        });
 
     }
 

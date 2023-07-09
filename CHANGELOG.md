@@ -8,3 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - 0.0.1
 * Adds console 
+
+- 0.0.2
+* Adds console log regardless of variables selected or not
+
