@@ -2,7 +2,7 @@
   "name": "one-console-log",
   "displayName": "one-console-log",
   "description": "A modified version of the turbo-console-log that adds only one line of console instead of multiples",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "p32929",
   "engines": {
     "vscode": "^1.79.0"

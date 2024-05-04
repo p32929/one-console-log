@@ -71,11 +71,10 @@ export class MyFuncs {
 
         if (selectedVarNames.length > 0) {
             for (var i = 0; i < selectedVarNames.length; i++) {
-                // finalText += `${selectedVarNames[i]} -> $\{${selectedVarNames[i]}\} ${i === selectedVarNames.length - 1 ? `` : `, `}`
-                finalText += `\`${selectedVarNames[i]} -> \`, ${selectedVarNames[i]} ${i === selectedVarNames.length - 1 ? `` : `, `}`
+                finalText += `${selectedVarNames[i]} -> \`, ${selectedVarNames[i]} ${i === selectedVarNames.length - 1 ? `` : `, \``} `
             }
         }
 
-        return `console.log(\`${finalText}\`)`
+        return `console.log(\`${finalText})`
     }
 }
