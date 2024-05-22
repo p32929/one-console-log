@@ -74,6 +74,9 @@ export class MyFuncs {
                 finalText += `${selectedVarNames[i]} -> \`, ${selectedVarNames[i]} ${i === selectedVarNames.length - 1 ? `` : `, \``} `
             }
         }
+        else {
+            finalText += `\``
+        }
 
         return `console.log(\`${finalText})`
     }
