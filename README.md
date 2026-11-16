@@ -1,6 +1,8 @@
 # one-console-log (WIP)
 
-A stripped-down [turbo-console-log](https://github.com/Chakroun-Anas/turbo-console-log) that inserts **one** `console.log` line instead of several. Same muscle memory, less noise in your output.
+A VS Code extension that adds a `console.log` for the variable under your cursor, in **one** line. It is a lighter take on [turbo-console-log](https://github.com/Chakroun-Anas/turbo-console-log).
+
+turbo-console-log is great, but it writes several lines for each log, which clutters your code and your output. one-console-log writes a single line, so you get the same quick logging with much less noise.
 
 **On the marketplace:** [one-console-log](https://marketplace.visualstudio.com/items?itemName=p32929.one-console-log)
 
@@ -24,42 +26,27 @@ ext install p32929.one-console-log
 
 ## How to use
 
-* Put your cursor on the variable (or the line) you want logged
-* Open the command palette (`Ctrl + Shift + P` / `Cmd + Shift + P`)
-* Pick **Add console.log in this line**
-* Done!
+1. Put your cursor on the variable (or the line) you want to log.
+2. Open the command palette (`Ctrl + Shift + P` on Windows and Linux, `Cmd + Shift + P` on Mac).
+3. Pick **Add console.log in this line**. The log line is added right below.
 
-## Disclaimer
+## Good to know
 
-This is **work in progress** and doesn't have all of turbo-console-log's features — right now it only adds the log line. If you need the full set (comment, uncomment, delete all logs, custom prefixes), install [turbo-console-log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) instead.
+This is **still being built** and does not have all of turbo-console-log's features. Right now it only adds the log line. If you need the full set (comment, uncomment, delete all logs, custom prefixes), install [turbo-console-log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) instead.
 
-## Credits / Thanks
+## Thanks
 
-* Thanks to [@Chakroun-Anas](https://github.com/Chakroun-Anas) for the turbo-console-log source code.
-* Thanks to [@microsoft](https://github.com/microsoft) for making vscode so awesome
+1. Thanks to [@Chakroun-Anas](https://github.com/Chakroun-Anas) for the turbo-console-log source code.
+2. Thanks to [@microsoft](https://github.com/microsoft) for VS Code.
 
 ## Contributing
 
-Contributions are warmly welcomed and greatly appreciated! Whether it's a bug fix, new feature, or improvement, your input helps make this project better for everyone.
-
-Before submitting a pull request, please:
-
-1. Create an issue describing the feature or bug fix you'd like to work on
-2. Wait for discussion and approval to ensure alignment with project goals
-3. Fork the repository and create your feature branch
-4. Submit your pull request with a clear description of changes
-
-This approach helps avoid duplicate efforts and ensures smooth collaboration. Thank you for considering contributing!
+Contributions are very welcome, thank you! Before you start on a pull request, please open an issue and tell me what you would like to add or change. That way we can agree on it first, and your time is not wasted on something that might not fit. Thanks for helping make one-console-log better.
 
 ## Share
 
-Sharing this repository with your friends is just one click away from here
+<a href="https://p32929.github.io/share/?repo=one-console-log"><img src="https://p32929.github.io/readme/share.svg" alt="Share this with your friends in just a click" width="420"></a>
 
-[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/one-console-log/)
-[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/one-console-log/)
-[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/one-console-log/)
-[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/one-console-log/)
-[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/one-console-log/)
-[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/one-console-log/)
-[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/one-console-log/)
-[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/one-console-log/)
+## Support
+
+<a href="https://p32929.github.io/support/"><img src="https://p32929.github.io/readme/support.svg" alt="If you like my works and want to support me, feel free to support" width="420"></a>
